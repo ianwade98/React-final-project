@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background-color: white !important;
+  background-image: url("./assets/img/fondo.jpg");
+  background-size: cover;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSansCondensed.ttf); 
+}
+

@@ -1,0 +1,134 @@
+header{
+    width: 100%;
+    .menu{
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        box-shadow: 2px 2px 5px rgb(124, 124, 124);
+        position: fixed;
+        .barra-menu{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            .marca{
+                text-align: center;
+                width: 180px;
+                cursor: pointer;
+                height: 100px;
+                display: flex;
+                flex-direction: row;
+                .link-logo{
+                    border: none;
+                    background-color: transparent;
+                    .logo{
+                        font-size: 70px;
+                        font-weight: bolder;
+                        text-decoration: line-through;
+                    }
+                }
+                .wellcome{
+                    margin-top: 26px;
+                    margin-left: 30px;
+                    font-size: 20px;
+                    cursor: text;
+                }
+            }
+            .dropdown{
+                margin-top: 35px;
+                margin-left: 55%;
+                margin-right: 50px;
+                button{
+                    margin-left: 5px;
+                    border: 1px solid black;
+                    background-color: transparent;
+                    color: black;
+                    font-weight: bolder;
+                }
+                .dropdown-menu .dropdown-item{
+                    border: none;
+                }
+            }
+            .btn-carrito {
+                border: none;
+                background-color: transparent;
+                margin-right: 50px;
+                display: flex;
+                margin-top: 38px;
+            }
+            .btn-login{
+                border: none;
+                background-color: transparent;
+                margin-top: 25px;
+                img{
+                    width: 30px;
+                }
+            }
+            .btn-logout{
+                border: none;
+                background-color: transparent;
+                margin-right: 30px;
+                margin-top: 5px;
+                img{
+                    width: 30px;
+                }
+            }
+            .btn-setting{
+                margin-top: 35px;
+                img{
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+.barra-admin{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 2px 2px 5px rgb(124, 124, 124);
+    .btn-stock{
+        border: none;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 8px;
+        width: 170px;
+        border-right: 1px solid white;
+        font-style: italic;
+    }
+    .btn-precio{
+        border: none;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 8px;
+        width: 170px;
+        border-right: 1px solid white;
+        font-style: italic;
+    }
+    .btn-producto{
+        border: none;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 8px;
+        width: 170px;
+        border-right: 1px solid white;
+        font-style: italic;
+    }
+    .btn-eliminar{
+        border: none;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 8px;
+        width: 170px;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,86 @@
+.count-container{
+    margin: 0 auto;
+    width: 100%;
+    border: none;
+    .itemcount{
+        width: 90px;
+        display: flex;
+        flex-direction: row;
+        height: 37px;
+        margin: 0 auto;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-right: 90px;
+        .btn-rest{
+            color: black;
+            background-color: transparent;
+            width: 30px;
+            height: 37px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bolder;
+            font-size: 20px;
+            margin-top: -1px;
+            &:disabled{
+                color: grey;
+                &:hover{
+                    color: grey;
+                }
+            }
+            &:hover{
+                color: #0418cf;
+            }
+        }
+        .numberDisplay{
+            background-color: transparent;
+            text-align: center;
+            color: black;
+            width: 30px;
+            height: 37px;
+            padding: 5px;
+            font-size: 20px;
+        }
+        .btn-add{
+            color: black;
+            background-color: transparent;
+            width: 30px;
+            height: 37px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bolder;
+            font-size: 20px;
+            margin-top: -1px;
+            &:hover{
+                color: #0418cf;
+            }
+            &:disabled{
+                color: grey;
+                &:hover{
+                    color: grey;
+                }
+            }
+        }
+    }
+    .alert{
+        margin-top: 5px;
+        justify-content: center;
+        margin-bottom: 0px;
+        height: 50px;
+    }
+    .btnAddItem{
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: black;
+        width: 200px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        margin-left: -120px;
+        font-size: 18px;
+    }
+}
+
+
+
